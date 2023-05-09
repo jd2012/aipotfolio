@@ -43,27 +43,24 @@ a:hover {
 main {
 	margin-top: 120px;
 	padding: 50px;
-	align-items: center;
-	width: 75%;
-	padding: 10px;
-	left: 50%; /* Position text in the middle */
-	translate: 25%;
+	display: flex;
+	justify-content: center;
 }
 
 section {
 	margin-bottom: 100px;
-	margin: auto;
+	width: 75%;
 	padding: 50px;
 }
 
 h2 {
-	font-size: 1.5rem;
+	font-size: 2rem;
 	font-weight: bold;
 	margin-bottom: 20px;
 }
 
 p {
-	font-size: 1rem;
+	font-size: 1.5rem;
 	line-height: 1.5;
 }
 
@@ -80,7 +77,7 @@ p {
 	font-weight: bold;
 	color: rgb(125, 231, 136);
 	text-decoration: none;
-	text-shadow: 0px 0px 10px rgb(125, 231, 136);
+	text-shadow: 0px 0px 10px rgba(125, 231, 136, 0.8);
 }
 
 .navigation {
