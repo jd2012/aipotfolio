@@ -1,5 +1,5 @@
 /* Main Stylesheet 
- * Version 4.2.2
+ * Version 4.2.3
  * jd2012 ©2023
 */
 
@@ -65,8 +65,10 @@ p {
 	line-height: 1.5;
 }
 
+
 .sectionTitle {
 	text-align: center;
+	padding: 10px;
 }
 
 /*.card {
