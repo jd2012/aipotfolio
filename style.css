@@ -1,5 +1,5 @@
 /* Main Stylesheet 
- * Version 4.2.1
+ * Version 4.2.2
  * jd2012 ©2023
 */
 
@@ -52,7 +52,6 @@ section {
 	margin: 0 auto;
 	width: 65%;
 	padding: 50px;
-	margin-bottom: 100px;
 }
 
 h2 {
