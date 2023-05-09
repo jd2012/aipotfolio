@@ -1,5 +1,5 @@
 /* Main Stylesheet 
- * Version 4.1.2
+ * Version 4.1.4
  * jd2012 ©2023
 */
 
@@ -54,13 +54,13 @@ section {
 }
 
 h2 {
-	font-size: 2rem;
+	font-size: 1.5rem;
 	font-weight: bold;
 	margin-bottom: 20px;
 }
 
 p {
-	font-size: 1.5rem;
+	font-size: 1rem;
 	line-height: 1.5;
 }
 
@@ -78,12 +78,12 @@ p {
 	color: rgb(125, 231, 136);
 	text-decoration: none;
 	text-shadow: 0px 0px 10px rgba(125, 231, 136, 0.8);
+	margin-left: 50px;
 }
 
 .navigation {
 	display: flex;
 	list-style: none;
-	width: 90%;
 }
 
 .navigation li a {
