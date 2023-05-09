@@ -12,7 +12,7 @@
 }
 
 body {
-	font-family: Consolas, Courier, monospace;
+	font-family: Syne Mono;
 	background-color: #111;
 }
 
@@ -43,7 +43,7 @@ a:hover {
 main {
 	margin-top: 120px;
 	padding: 50px;
-	display: flex;
+	
 	justify-content: center;
 }
 
