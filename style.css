@@ -39,7 +39,7 @@ footer {
 .logo a {
 	font-size: 2rem;
 	font-weight: bold;
-	color: #000;
+	color: #00ff08;
 	text-decoration: none;
 }
 
@@ -51,7 +51,7 @@ footer {
 .navigation li a {
 	display: block;
 	padding: 0 20px;
-	color: #000;
+	color: #ffffff;
 	text-decoration: none;
 }
 
@@ -75,16 +75,20 @@ footer {
 
 #more {display: none;}
 
-.button {
-  background-color: #ddd;
+.moreBtn {
+  background-color: #757575;
   border: none;
-  color: black;
+  color: rgb(255, 255, 255);
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   margin: 4px 2px;
   cursor: pointer;
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(220, 220, 220, 0.2);
 }
 
 @media (max-width: 768px) {
@@ -131,7 +135,9 @@ main {
 section {
 	margin-bottom: 100px;
 	align-items: center;
-	width: 75%;
+	width: 50%;
+	transform: translate(-50%, -50%);
+
 }
 
 h2 {
@@ -143,7 +149,7 @@ h2 {
 
 p {
 	font-size: 1.2rem;
-	color: #b1b1b1;
+	color: #ffffff;
 	line-height: 1.5;
 }
 
