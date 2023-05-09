@@ -87,7 +87,7 @@ footer {
 }*/
 
 a:hover {
-	font-weight: 700;
+	font-weight: 00;
 }
 
 .card {
@@ -101,7 +101,7 @@ main {
 	width: 75%;
 	padding: 10px;
 	left: 50%; /* Position text in the middle */
-	translate: 50%;
+	translate: 25%;
 }
 
 section {
@@ -112,13 +112,13 @@ section {
 }
 
 h2 {
-	font-size: 1rem;
+	font-size: 1.5rem;
 	font-weight: bold;
 	margin-bottom: 20px;
 }
 
 p {
-	font-size: .6rem;
+	font-size: 1rem;
 	line-height: 1.5;
 }
 
