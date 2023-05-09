@@ -1,9 +1,9 @@
 /* Main Script 
- * Version 4.0.0 
+ * Version 4.0.5 
  * jd2012 ©2023
 */
 
-const navSlide = () => {
+function navSlide() {
 	const burger = document.querySelector('.burger');
 	const nav = document.querySelector('.navigation');
 	const navLinks = document.querySelectorAll('.navigation li');

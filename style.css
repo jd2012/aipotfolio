@@ -1,5 +1,5 @@
 /* Main Stylesheet 
- * Version 4.0.0
+ * Version 4.0.5
  * jd2012 ©2023
 */
 
@@ -33,7 +33,7 @@ nav {
 }
 
 footer {
-	align-content: center;
+	text-align: center;
 }
 
 .logo a {
@@ -54,9 +54,9 @@ footer {
 	text-decoration: none;
 }
 
-/*.navigation li a:hover {
-	background-color: rgba(67, 238, 0, 0.085);
-}*/
+.navigation li a:hover {
+	font-weight: 700;
+}
 
 .burger {
 	display: none;
@@ -92,7 +92,6 @@ footer {
 
 .card {
 	box-shadow: 0 4px 8px 0 rgba(220, 220, 220, 0.2);
-
 }
 
 main {
@@ -102,12 +101,12 @@ main {
 	width: 75%;
 	padding: 10px;
 	left: 50%; /* Position text in the middle */
-	transform: translate(-50%, -50%); /* Position text in the middle */
 }
 
 section {
 	margin-bottom: 100px;
 	margin: auto;
+	padding: 50px;
 
 }
 
