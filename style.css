@@ -43,14 +43,16 @@ a:hover {
 main {
 	margin-top: 120px;
 	padding: 50px;
-	
+	width: 100%;
+	display: flex;
 	justify-content: center;
 }
 
 section {
-	margin-bottom: 100px;
-	width: 75%;
+	margin: 0 auto;
+	width: 65%;
 	padding: 50px;
+	margin-bottom: 100px;
 }
 
 h2 {
