@@ -31,7 +31,6 @@
 		<span class="sectionTitle">Here are some programming projects I have worked on over the years</span>
 		<section class="card" data-project="waze">
 			<h2>Waze Traffic Calculator</h2>
-			<h4>Travel Times for Peoria, IL</h4>
 			<p>Travel times and traffic information are a vital part of many commuters morning routine and a staple of any local news station's morning show. So when my friend, who is a meteorologist on a morning news show, mentioned that she reports traffic by looking up travel times on Waze, I was suprised<span class="dots">... </span><span class="more">. I had always imagined that news stations got traffic data from different sources than the public. It makes sense to use Waze, considering the app calculates travel times by aggregating crowd-sourced data, meaning the more people using the app, the more accurate the results. <br>
 			My friend continued on to say that in order to update the graphics for the show, she had to copy and paste the results of each route into either an Excel sheet or a CSV file. This task became very repetitive throughout the three-hour show, and she wanted me to automate it. So I dove right in.<br>
 			The goal was to create a program that outputs, in an easily exportable format, the travel times for all the different routes simultaneously. First, I needed to be able to get the travel data from Waze. Unfortunately, Waze is pretty stingy about who gets access to their SDK, so I couldn't get direct access to the data. Luckily, I found a Python extension that pulls data from Waze and gets travel times for a singular route. I also discovered an extension for Excel called xlwings. This extension allowed me to run a python script and VBA macros right from an open Excel document. With some implementation and modification, I created a program that got travel times, inserted them into an Excel sheet, and exported a CSV file, initiated by a button on that same Excel sheet. Thats it!… or so I thought. When I presented it to my friend, she reminded me that her account privileges would not let her install xlwings. So, it was back to the drawing board.<br>
@@ -56,7 +55,7 @@
 	</main>
 	<footer>
 		<div>
-			<p>Version 4.2.3 ©2023</p>
+			<p>Version 4.2.4 ©2023</p>
 		</div>
 	</footer>
 	
