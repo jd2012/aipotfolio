@@ -12,8 +12,8 @@
 }
 
 body {
-	font-family: sans-serif;
-	background-color: #000;
+	font-family: Consolas, Courier, monospace;
+	background-color: #111;
 }
 
 header {
@@ -23,7 +23,7 @@ header {
 	width: 100%;
 	padding: 20px;
 	z-index: 1;
-	background-color: rgba(27, 27, 27, 0.8);
+	background-color: rgba(85, 85, 85, 0.8);
 }
 
 nav {
@@ -37,7 +37,7 @@ footer {
 }
 
 .logo a {
-	font-size: 2rem;
+	font-size: 4rem;
 	font-weight: bold;
 	color: #00ff08;
 	text-decoration: none;
