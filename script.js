@@ -1,5 +1,5 @@
 /* Main Script 
- * Version 2.6 
+ * Version 2.7 
  * jd2012 ©2023
 */
 
