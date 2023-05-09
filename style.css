@@ -1,5 +1,5 @@
 /* Main Stylesheet 
- * Version 4.1.0
+ * Version 4.1.2
  * jd2012 ©2023
 */
 
@@ -83,6 +83,7 @@ p {
 .navigation {
 	display: flex;
 	list-style: none;
+	width: 90%;
 }
 
 .navigation li a {
