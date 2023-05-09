@@ -102,7 +102,7 @@ main {
 	width: 75%;
 	padding: 10px;
 	left: 50%; /* Position text in the middle */
-	transform: translateX(-50%); /* Position text in the middle */
+	transform: translateX(50%); /* Position text in the middle */
 }
 
 section {
