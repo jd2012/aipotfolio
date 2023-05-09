@@ -1,5 +1,5 @@
 /* Main Stylesheet 
- * Version 4.0.5
+ * Version 4.0.6
  * jd2012 ©2023
 */
 
@@ -86,8 +86,8 @@ footer {
   cursor: pointer;
 }*/
 
-.moreBtn:hover {
-	background-color: rgb(222, 222, 222);
+a:hover {
+	font-weight: 700;
 }
 
 .card {
@@ -101,6 +101,7 @@ main {
 	width: 75%;
 	padding: 10px;
 	left: 50%; /* Position text in the middle */
+	translate: 50%;
 }
 
 section {
@@ -111,13 +112,13 @@ section {
 }
 
 h2 {
-	font-size: 2vw;
+	font-size: 2rem;
 	font-weight: bold;
 	margin-bottom: 20px;
 }
 
 p {
-	font-size: 1.2vw;
+	font-size: 1.2rem;
 	line-height: 1.5;
 }
 
