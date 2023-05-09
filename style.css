@@ -39,7 +39,7 @@ footer {
 .logo a {
 	font-size: 4rem;
 	font-weight: bold;
-	color: #00ff08;
+	color: rgb(125, 231, 136);
 	text-decoration: none;
 }
 
@@ -51,7 +51,6 @@ footer {
 .navigation li a {
 	display: block;
 	padding: 0 20px;
-	color: #ffffff;
 	text-decoration: none;
 }
 
@@ -68,7 +67,7 @@ footer {
 .burger div {
 	width: 25px;
 	height: 3px;
-	background-color: #000;
+	background-color: #ffffff;
 	margin: 5px;
 	transition: all 0.3s ease;
 }
@@ -76,7 +75,7 @@ footer {
 #more {display: none;}
 
 .moreBtn {
-  background-color: #757575;
+  background-color: #75757500;
   border: none;
   color: rgb(255, 255, 255);
   padding: 10px 20px;
@@ -85,6 +84,10 @@ footer {
   display: inline-block;
   margin: 4px 2px;
   cursor: pointer;
+}
+
+.moreBtn:hover {
+	background-color: rgb(222, 222, 222);
 }
 
 .card {
@@ -102,21 +105,22 @@ section {
 	margin-bottom: 100px;
 	align-items: center;
 	width: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	margin: 0 auto; /* Center the text container */
+	padding: 10px;
+	position: absolute; /* Position text */
+	left: 50%; /* Position text in the middle */
+	transform: translate(-50%, -50%); /* Position text in the middle */
 
 }
 
 h2 {
 	font-size: 2rem;
 	font-weight: bold;
-	color: #d0d0d0;
 	margin-bottom: 20px;
 }
 
 p {
 	font-size: 1.2rem;
-	color: #ffffff;
 	line-height: 1.5;
 }
 
