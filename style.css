@@ -1,5 +1,5 @@
 /* Main Stylesheet 
- * Version 4.0.6
+ * Version 4.1.0
  * jd2012 ©2023
 */
 
@@ -36,11 +36,51 @@ footer {
 	text-align: center;
 }
 
+a:hover {
+	font-weight: 00;
+}
+
+main {
+	margin-top: 120px;
+	padding: 50px;
+	align-items: center;
+	width: 75%;
+	padding: 10px;
+	left: 50%; /* Position text in the middle */
+	translate: 25%;
+}
+
+section {
+	margin-bottom: 100px;
+	margin: auto;
+	padding: 50px;
+}
+
+h2 {
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+p {
+	font-size: 1rem;
+	line-height: 1.5;
+}
+
+.sectionTitle {
+	text-align: center;
+}
+
+/*.card {
+	box-shadow: 0 4px 8px 0 rgba(220, 220, 220, 0.2);
+}*/
+
 .logo a {
 	font-size: 4rem;
 	font-weight: bold;
 	color: rgb(125, 231, 136);
 	text-decoration: none;
+	text-shadow: 0px 0px 10px rgb(125, 231, 136);
 }
 
 .navigation {
@@ -85,42 +125,6 @@ footer {
   margin: 4px 2px;
   cursor: pointer;
 }*/
-
-a:hover {
-	font-weight: 00;
-}
-
-.card {
-	box-shadow: 0 4px 8px 0 rgba(220, 220, 220, 0.2);
-}
-
-main {
-	margin-top: 120px;
-	padding: 50px;
-	align-items: center;
-	width: 75%;
-	padding: 10px;
-	left: 50%; /* Position text in the middle */
-	translate: 25%;
-}
-
-section {
-	margin-bottom: 100px;
-	margin: auto;
-	padding: 50px;
-
-}
-
-h2 {
-	font-size: 1.5rem;
-	font-weight: bold;
-	margin-bottom: 20px;
-}
-
-p {
-	font-size: 1rem;
-	line-height: 1.5;
-}
 
 @media (max-width: 768px) {
 
