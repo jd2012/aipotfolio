@@ -72,7 +72,7 @@ footer {
 	transition: all 0.3s ease;
 }
 
-#more {display: none;}
+.more {display: none;}
 
 .moreBtn {
   background-color: #75757500;
