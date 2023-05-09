@@ -113,13 +113,13 @@ section {
 }
 
 h2 {
-	font-size: 2rem;
+	font-size: 2vw;
 	font-weight: bold;
 	margin-bottom: 20px;
 }
 
 p {
-	font-size: 1.2rem;
+	font-size: 1.2vw;
 	line-height: 1.5;
 }
 
