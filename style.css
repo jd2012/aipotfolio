@@ -26,6 +26,10 @@ nav {
 	justify-content: space-between;
 }
 
+footer {
+	align-content: center;
+}
+
 .logo a {
 	font-size: 2rem;
 	font-weight: bold;
@@ -62,6 +66,8 @@ nav {
 	margin: 5px;
 	transition: all 0.3s ease;
 }
+
+#more {display: none;}
 
 @media (max-width: 768px) {
 
@@ -100,10 +106,12 @@ nav {
 main {
 	margin-top: 100px;
 	padding: 50px;
+	align-items: center;
 }
 
 section {
 	margin-bottom: 100px;
+	align-items: center;
 }
 
 h2 {
