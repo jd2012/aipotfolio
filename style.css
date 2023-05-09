@@ -1,5 +1,5 @@
 /* Main Stylesheet 
- * Version 4.2.0
+ * Version 4.2.1
  * jd2012 ©2023
 */
 
@@ -44,7 +44,7 @@ main {
 	margin-top: 120px;
 	padding: 50px;
 	width: 100%;
-	display: flex;
+	display: grid;
 	justify-content: center;
 }
 
