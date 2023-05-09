@@ -1,12 +1,19 @@
+/* Main Stylesheet 
+ * Version 2.3 
+ * jd2012 ©2023
+*/
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	color: #fff;
+	
 }
 
 body {
 	font-family: sans-serif;
-	background: url(background.jpg) no-repeat center center fixed;
+	background: #1b1b1b;
 	background-size: cover;
 }
 
@@ -17,7 +24,7 @@ header {
 	width: 100%;
 	padding: 20px;
 	z-index: 1;
-	background-color: rgba(255, 255, 255, 0.8);
+	background-color: rgba(27, 27, 27, 0.8);
 }
 
 nav {
@@ -84,7 +91,7 @@ footer {
 		flex-direction: column;
 		align-items: center;
 		justify-content: space-between;
-		background-color: #fff;
+		background-color: #000;
 		overflow-x: hidden;
 		transition: all 0.5s ease;
 		transform: translateX(-100%);
@@ -107,6 +114,8 @@ main {
 	margin-top: 100px;
 	padding: 50px;
 	align-items: center;
+	justify-self: center;
+	width: 75%;
 }
 
 section {
@@ -117,13 +126,13 @@ section {
 h2 {
 	font-size: 2rem;
 	font-weight: bold;
-	color: #000;
+	color: #d0d0d0;
 	margin-bottom: 20px;
 }
 
 p {
 	font-size: 1.2rem;
-	color: #333;
+	color: #b1b1b1;
 	line-height: 1.5;
 }
 

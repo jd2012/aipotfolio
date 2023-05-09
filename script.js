@@ -1,3 +1,8 @@
+/* Main Script 
+ * Version 2.3 
+ * jd2012 ©2023
+*/
+
 const navSlide = () => {
 	const burger = document.querySelector('.burger');
 	const nav = document.querySelector('.navigation');
@@ -23,10 +28,10 @@ const navSlide = () => {
 
 navSlide();
 
-function readMore() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
-  var btnText = document.getElementById("moreBtn");
+function readMore(project) {
+  let dots = document.querySelector(`.card[data-project="${project}"] .dots`);
+    let moreText = document.querySelector(`.card[data-project="${project}"] .more`); 
+    let btnText = document.querySelector(`.card[data-project="${project}"] .myBtn`);
 
   if (dots.style.display === "none") {
     dots.style.display = "inline";
