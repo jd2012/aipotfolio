@@ -1,5 +1,5 @@
 /* Main Script 
- * Version 2.4 
+ * Version 2.6 
  * jd2012 ©2023
 */
 
@@ -29,17 +29,17 @@ const navSlide = () => {
 navSlide();
 
 function readMore(project) {
-  let dots = document.querySelector(`.card[data-project="${project}"] .dots`);
+	let dots = document.querySelector(`.card[data-project="${project}"] .dots`);
     let moreText = document.querySelector(`.card[data-project="${project}"] .more`); 
-    let btnText = document.querySelector(`.card[data-project="${project}"] .myBtn`);
-
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "Read more";
-    moreText.style.display = "none";
-  } else {
-    dots.style.display = "none";
-    btnText.innerHTML = "Read less";
-    moreText.style.display = "inline";
+    let btnText = document.querySelector(`.card[data-project="${project}"] .moreBtn`);
+	
+	if (dots.style.display === "none") {
+		dots.style.display = "inline";
+		btnText.innerHTML = "Read more";
+		moreText.style.display = "none";
+	} else {
+		dots.style.display = "none";
+		btnText.innerHTML = "Read less";
+		moreText.style.display = "inline";
   }
 }

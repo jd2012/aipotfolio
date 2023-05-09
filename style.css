@@ -1,5 +1,5 @@
 /* Main Stylesheet 
- * Version 2.4 
+ * Version 2.6 
  * jd2012 ©2023
 */
 
@@ -13,8 +13,7 @@
 
 body {
 	font-family: sans-serif;
-	background: #1b1b1b;
-	background-size: cover;
+	background-color: #000;
 }
 
 header {
@@ -76,6 +75,18 @@ footer {
 
 #more {display: none;}
 
+.button {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
 @media (max-width: 768px) {
 
 	body {
@@ -115,12 +126,12 @@ main {
 	padding: 50px;
 	align-items: center;
 	justify-self: center;
-	width: 75%;
 }
 
 section {
 	margin-bottom: 100px;
 	align-items: center;
+	width: 75%;
 }
 
 h2 {
